@@ -1,0 +1,12 @@
+# ONLYOFFICE Document Builder - System Dependencies for Kan-Linux rootfs
+# Generated: Sat Nov  7 09:05:57 PM CST 2026
+
+## Required system shared libraries (verified via ldd):
+  libc.so.6 -> /lib64/libc.so.6
+  libgcc_s.so.1 -> /usr/lib64/libgcc_s.so.1
+  libm.so.6 -> /lib64/libm.so.6
+  libmvec.so.1 -> /lib64/libmvec.so.1
+  libstdc++.so.6 -> /usr/lib64/libstdc++.so.6
+
+## All required .so are bundled in this package.
+## No additional system packages needed beyond base glibc/libstdc++/libgcc.
